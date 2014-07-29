@@ -1,0 +1,36 @@
+#splash {
+  color: white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  background: black;
+  background: url('../assets/images/hackmit.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  #splash .content{
+    padding: 24px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #splash h1 {
+    margin: 0;
+  }
+
+  #splash h3 {
+    margin-top: 0;
+  }

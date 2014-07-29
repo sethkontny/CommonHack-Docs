@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+.logo,
+button {
+  font-family: 'Oswald', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: .2em;
+}
+
+h3 {
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  outline: 8px solid black;
+  display: inline-block;
+  outline-offset: 16px;
+  font-size: 6em;
+  z-index: 999;
+}
+
+.logo:after {
+  content: 'H'
+}
+
+.logo.small {
+  position: fixed;
+  top: 16px; left: 16px;
+  font-size: 1.8em;
+  outline-offset: 4px;
+  outline-width: 3px;
+}
+
+.logo.white {
+  outline-color: white;
+  color: white;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+button {
+  border: 4px solid black;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  padding: 12px;
+  font-size: 1.4em;
+
+  -webkit-transition: color 500ms, background 500ms;
+  -moz-transition: color 500ms, background 500ms;
+  -o-transition: color 500ms, background 500ms;
+  -ms-transition: color 500ms, background 500ms;
+  transition: color 500ms, background 500ms;
+}
+
+button:hover {
+  color: white;
+  background: black;
+}
+
+button.white {
+  border: 4px solid white;
+  color: white;
+}
+
+button.white:hover {
+  color: black;
+  background: white;
+}
