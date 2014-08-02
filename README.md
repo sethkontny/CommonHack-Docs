@@ -42,6 +42,13 @@ For a valid API Key, the GET will return all hackers who have selected your hack
     summary: String
   },
 
+  personal {
+    gender: String,
+    dietaryRestrictions: [
+      String
+    ]
+  },
+
   contact: {
     email: String,  
     phone: String,          // Formatted as +### (###) ### ####, ex. +1 123 555 1234
